@@ -1,6 +1,6 @@
 
 
-![](C:/Users/Saylar/Desktop/git.jpg)
+![Git](C:/Users/Saylar/Desktop/git.jpg)
 
 
 
