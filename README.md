@@ -44,7 +44,7 @@ Archivo principal: [`Implementing Version Control and CI.pdf`](./Implementing%20
 <img src="https://store-images.s-microsoft.com/image/apps.9729.14405452487353876.a6612b1c-3bfc-46da-ad7e-0dd83b65757d.be9b17fe-9781-42f6-9a3e-4914ef774843?q=90&w=256&h=256&mode=crop&format=jpg&background=%230078D7" alt="Power BI logo" width="24" height="24"/>
 
 ### Ejemplo visual:  
-![Version Control Example](https://github.com/tu_usuario/tu_repositorio/raw/main/Implementing%20Version%20Control%20and%20CI.pdf)
+[Video ejemplo de control de versiones (recomiendo este canal)](https://www.youtube.com/watch?v=OZSYz-tvr50)
 
 **Objetivo:**  
 Proporcionar una guía completa sobre cómo usar Git y Azure DevOps para manejar proyectos de datos y mantener archivos de Power BI bajo control de versiones.
@@ -62,7 +62,6 @@ Archivo principal: [`forHumanResources`](./forHumanResources)
 - Explicaciones sencillas y amigables.  
 - Accesible para usuarios no técnicos.
 
-
 ---
 
 ## 4. DAX Studio
@@ -77,8 +76,8 @@ Archivos:
 <img src="https://s.softdeluxe.com/icons/png/128/8276/8276893.png" alt="DAX Studio logo" width="24" height="24"/>  
 <img src="https://store-images.s-microsoft.com/image/apps.9729.14405452487353876.a6612b1c-3bfc-46da-ad7e-0dd83b65757d.be9b17fe-9781-42f6-9a3e-4914ef774843?q=90&w=256&h=256&mode=crop&format=jpg&background=%230078D7" alt="Power BI logo" width="24" height="24"/>
 
-Ejemplo de captura de pantalla:  
-![DAX Studio Example](https://github.com/tu_usuario/tu_repositorio/raw/main/daxStudio/imagen_ejemplo.png)
+### Ejemplo de uso:  
+[Video ejemplo de DAX Studio](https://www.youtube.com/watch?v=gZ4JcqFwJfg&list=PLU6II7MW-aiJ3Z-wbUQ0tkqSbAkyiB3uy&index=1)
 
 ---
 
