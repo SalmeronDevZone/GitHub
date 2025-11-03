@@ -18,8 +18,8 @@ Archivo principal: [`git.pdf`](./git.pdf)
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo" width="24" height="24"/>  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub logo" width="24" height="24"/>
 
-### Ejemplo de uso:  
-![Git Example](https://git-scm.com/book/en/v2)
+### Ejemplo :  
+[Libro oficial de Git](https://git-scm.com/book/en/v2)
 
 **Objetivo:**  
 Aprender los fundamentos de Git y aplicarlos en proyectos personales o de equipo.
