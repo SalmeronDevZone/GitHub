@@ -1,89 +1,44 @@
-# Repositorio de Tutoriales y Manuales
+# 🧩 Git y GitHub: manual, laboratorios y chuleta
 
-Este repositorio contiene recursos y tutoriales básicos para herramientas de desarrollo y gestión de datos. Actualmente incluye:
+Todo lo necesario para trabajar con Git en un equipo de datos o de plataforma: un manual de base, **10 laboratorios prácticos con corrección automática**, una chuleta para el día a día y una guía para que Recursos Humanos sepa leer un perfil de GitHub.
 
-1. **Manual Básico de Git**  
-2. **Implementing Version Control and CI**  
-3. **For Human Resources**  
-4. **DAX Studio** (tutorial básico)
+[![laboratorios](https://github.com/SalmeronDevZone/GitHub/actions/workflows/laboratorios.yml/badge.svg)](https://github.com/SalmeronDevZone/GitHub/actions/workflows/laboratorios.yml)
+![Git](https://img.shields.io/badge/Git-2.28%2B-F05032?logo=git&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-Linux%20%C2%B7%20macOS%20%C2%B7%20Git%20Bash-4EAA25?logo=gnubash&logoColor=white)
 
----
+## Contenido
 
-## 1. Manual Básico de Git
+| Recurso | Para quién | Qué es |
+| --- | --- | --- |
+| [**Laboratorios**](ejercicios/README.md) | Quien quiera practicar | 10 escenarios reales con un repositorio ya montado y un corrector: conflictos, `revert`, `rebase`, `stash`, `cherry-pick`, secretos subidos por error, `bisect`... |
+| [**Chuleta**](chuleta-git.md) | Uso diario | Los comandos que se usan de verdad, agrupados por situación, incluido cómo deshacer cada cosa |
+| [**Manual básico**](git.pdf) | Quien empieza | Conceptos esenciales: commits, ramas, merge y buenas prácticas |
+| [**Guía para RR. HH.**](forHumanResources.md) | Recursos Humanos | Cómo revisar el GitHub de un candidato sin conocimientos técnicos (inglés y español) |
 
-Este documento es un **manual introductorio de Git**, que cubre los conceptos esenciales de control de versiones: commits, branches, merge, y buenas prácticas para gestionar proyectos.  
-Archivo principal: [`git.pdf`](./git.pdf)
-
-### Tecnologías  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo" width="24" height="24"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub logo" width="24" height="24"/>
-
-### Ejemplo :  
-[Libro oficial de Git](https://git-scm.com/book/en/v2)
-
-**Objetivo:**  
-Aprender los fundamentos de Git y aplicarlos en proyectos personales o de equipo.
-
----
-
-## 2. Implementing Version Control and CI
-
-Este PDF es un **manual avanzado de control de versiones y CI**, que incluye:
-
-- Git y GitHub  
-- Azure DevOps  
-- Gestión de archivos de Power BI  
-- Estrategias de integración continua (CI)  
-
-Archivo principal: [`Implementing Version Control and CI.pdf`](./Implementing%20Version%20Control%20and%20CI.pdf)
-
-### Tecnologías  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo" width="24" height="24"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub logo" width="24" height="24"/>  
-<img src="https://www.svgrepo.com/show/448307/azure-devops.svg" alt="Azure DevOps logo" width="24" height="24"/>  
-<img src="https://store-images.s-microsoft.com/image/apps.9729.14405452487353876.a6612b1c-3bfc-46da-ad7e-0dd83b65757d.be9b17fe-9781-42f6-9a3e-4914ef774843?q=90&w=256&h=256&mode=crop&format=jpg&background=%230078D7" alt="Power BI logo" width="24" height="24"/>
-
-### Ejemplo visual:  
-[Video ejemplo de control de versiones (recomiendo este canal)](https://www.youtube.com/watch?v=OZSYz-tvr50)
-
-**Objetivo:**  
-Proporcionar una guía completa sobre cómo usar Git y Azure DevOps para manejar proyectos de datos y mantener archivos de Power BI bajo control de versiones.
-
----
-
-## 3. For Human Resources
-
-Esta sección está pensada para que **personal de Recursos Humanos** pueda navegar y entender la estructura del repositorio sin necesidad de conocimientos técnicos avanzados.
-
-Archivo principal: [`forHumanResources`](./forHumanResources)
-
-### Características:  
-- Guía paso a paso para navegar el repositorio.  
-- Explicaciones sencillas y amigables.  
-- Accesible para usuarios no técnicos.
-
----
-
-## 4. DAX Studio
-
-Este es un **tutorial básico de DAX Studio**, que se añadirá próximamente.  
-Objetivo: que los usuarios puedan entender cómo usar DAX Studio para analizar datos y crear consultas básicas en Power BI.
-
-Archivos:  
-- `daxStudio/DAXStudio.pdf` 
-
-### Tecnologías  
-<img src="https://s.softdeluxe.com/icons/png/128/8276/8276893.png" alt="DAX Studio logo" width="24" height="24"/>  
-<img src="https://store-images.s-microsoft.com/image/apps.9729.14405452487353876.a6612b1c-3bfc-46da-ad7e-0dd83b65757d.be9b17fe-9781-42f6-9a3e-4914ef774843?q=90&w=256&h=256&mode=crop&format=jpg&background=%230078D7" alt="Power BI logo" width="24" height="24"/>
-
-### Ejemplo de uso:  
-[Video ejemplo de DAX Studio](https://www.youtube.com/watch?v=gZ4JcqFwJfg&list=PLU6II7MW-aiJ3Z-wbUQ0tkqSbAkyiB3uy&index=1)
-
----
-
-## Cómo usar este repositorio
-
-1. Clonar el repositorio:
+## Los laboratorios en 30 segundos
 
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
+git clone https://github.com/SalmeronDevZone/GitHub.git
+cd GitHub/ejercicios
+./laboratorio.sh 03               # monta el escenario: un conflicto de merge
+cd ~/laboratorios-git/03          # resuélvelo con Git
+cd -
+./comprobar.sh 03                 # ✅ / ❌ en cada punto
+```
+
+| | Laboratorios |
+| --- | --- |
+| 🟢 | Primer repositorio sin secretos ni datos · Rama y merge · Etiquetar una versión |
+| 🟡 | Resolver un conflicto · Revert de un commit publicado · Rebase · Stash ante una urgencia · Cherry-pick · Sacar un secreto del repositorio |
+| 🔴 | Encontrar con `git bisect` el commit que rompió la prueba |
+
+La CI de GitHub Actions comprueba en cada push que cada laboratorio **falla** sin resolver y **pasa** con su solución de referencia.
+
+## Recursos externos
+
+- [Pro Git](https://git-scm.com/book/es/v2), el libro oficial (en español).
+- [Video sobre control de versiones](https://www.youtube.com/watch?v=OZSYz-tvr50).
+
+---
+
+**Jesús Salmerón** · Data Engineer · [GitHub](https://github.com/SalmeronDevZone) · [LinkedIn](https://www.linkedin.com/in/jesussalmeronarmario/)

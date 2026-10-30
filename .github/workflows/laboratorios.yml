@@ -1,0 +1,17 @@
+name: laboratorios
+
+on:
+  push:
+    branches: [main]
+    paths: ["ejercicios/**", ".github/workflows/laboratorios.yml"]
+  pull_request:
+    paths: ["ejercicios/**"]
+  workflow_dispatch:
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cada laboratorio falla sin resolver y pasa con su solución
+        run: ./ejercicios/verificar_todo.sh
