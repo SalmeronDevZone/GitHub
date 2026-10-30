@@ -3,7 +3,7 @@
 > **Reviewing my profile? Start here / ¿Revisas mi perfil? Empieza aquí:**
 >
 > 1. [**Insight_Horizon**](https://github.com/SalmeronDevZone/Insight_Horizon): an ETL pipeline with data quality checks, tests and CI / un pipeline ETL con calidad de datos, pruebas e integración continua.
-> 2. [**snake-data-lair**](https://github.com/SalmeronDevZone/snake-data-lair): SQL across five engines and 22 auto-graded exercises / SQL en cinco motores y 22 ejercicios con corrección automática.
+> 2. [**snake-data-lair**](https://github.com/SalmeronDevZone/snake-data-lair): SQL across five engines and 45 auto-graded exercises / SQL en cinco motores y 45 ejercicios con corrección automática.
 > 3. [**azure-lab**](https://github.com/SalmeronDevZone/azure-lab): a local Azure simulator to learn DevOps / un simulador local de Azure para aprender DevOps.
 
 ## English
